@@ -12,3 +12,5 @@ fi
 # Create the backup archive
 date=$(date +"%Y-%m-%d")
 tar -czvf "$dst_dir/backup-$date.tar.gz" "$src_dir"
+
+#You can run this script regularly as a scheduled task using a tool like cron to keep your important files backed up automatically.
